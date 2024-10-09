@@ -47,54 +47,80 @@ const Home = () => {
 <section>
 <div className="relative carousel rounded-box flex justify-center">
     {/* Carousel Items */}
-    <div className="carousel-item">
-      <img
-        style={{ width: '100%' }}
-        src="../assests/home1.png"
-        alt="Burger"
-      />
+            <div className="carousel-item bg-1 card">
+              {/* Centered Text */}
+              <div>
+                <h2 className="text-3xl md:text-5xl font-bold text-center">
+                  LELEE
+                </h2>
+              </div>
+              <div>
+                <p className="text-lg md:text-xl text-center" style={{ marginTop: '60px' }}>
+                  More Details
+                </p>
+              </div>
+            </div>
+            <dixv className="carousel-item bg-2">
+              {/* Centered Text */}
+              <div >
+                <h2 className="text-3xl md:text-5xl font-bold text-center">
+                  LELEE
+                </h2>
+
+              </div>
+              <div >
+                <p className="text-lg md:text-xl text-center" style={{ marginTop: '60px' }}>
+                  More Details
+                </p>
+              </div>
+    </dixv>
+            <div className="carousel-item bg-3">
+      
+              {/* Centered Text */}
+              <div >
+                <h2 className="text-3xl md:text-5xl font-bold text-center">
+                  LELEE
+                </h2>
+
+              </div>
+              <div >
+                <p className="text-lg md:text-xl text-center" style={{ marginTop: '60px' }}>
+                  More Details
+                </p>
+              </div>
     </div>
-    <div className="carousel-item">
-      <img
-        style={{ width: '100%' }}
-        src="../assests/Rectangle 533.png"
-        alt="Burger"
-      />
+            <div className="carousel-item bg-4">
+      
+              {/* Centered Text */}
+              <div >
+                <h2 className="text-3xl md:text-5xl font-bold text-center">
+                  LELEE
+                </h2>
+
+              </div>
+              <div >
+                <p className="text-lg md:text-xl text-center" style={{ marginTop: '60px' }}>
+                  More Details
+                </p>
+              </div>
     </div>
-    <div className="carousel-item">
-      <img
-        style={{ width: '100%' }}
-        src="../assests/Rectangle 534.png"
-        alt="Burger"
-      />
-    </div>
-    <div className="carousel-item">
-      <img
-        style={{ width: '100%' }}
-        src="../assests/Rectangle 535.png"
-        alt="Burger"
-      />
-    </div>
-    <div className="carousel-item">
-      <img
-        style={{ width: '100%' }}
-        src="../assests/Rectangle 536.png"
-        alt="Burger"
-      />
+            <div className="carousel-item bg-5">
+     
+              {/* Centered Text */}
+              <div >
+                <h2 className="text-3xl md:text-5xl font-bold text-center">
+                  LELEE
+                </h2>
+
+              </div>
+              <div >
+                <p className="text-lg md:text-xl text-center" style={{ marginTop: '60px' }}>
+                  More Details
+                </p>
+              </div>
     </div>
 
-    {/* Centered Text */}
-    <div className="absolute inset-0 flex items-center justify-center text-white">
-      <h2 className="text-3xl md:text-5xl font-bold text-center">
-        LELEE
-      </h2>
-     
-    </div>
-    <div className="absolute inset-0 flex items-center justify-center text-white">
-    <p className="text-lg md:text-xl text-center" style={{marginTop:'60px'}}>
-        More Details
-      </p>
-    </div>
+   
   </div>
 </section>
 
@@ -195,22 +221,22 @@ const Home = () => {
 
 <Images
   images={[
-    { src: "../assests/Rectangle 3.png", alt: "Image 1", text: "Hovered Text 1" },
-    { src: "../assests/Rectangle 4 (1).png", alt: "Image 2", text: "Hovered Text 2" },
-    { src: "../assests/Rectangle 5.png", alt: "Image 3", text: "Hovered Text 3" },
-    { src: "../assests/Rectangle 6 (1).png", alt: "Image 4", text: "Hovered Text 4" },
-    { src: "../assests/Rectangle 515.png", alt: "Image 1", text: "Hovered Text 1" },
-    { src: "../assests/Rectangle 516.png", alt: "Image 2", text: "Hovered Text 2" },
-    { src: "../assests/Rectangle 3.png", alt: "Image 3", text: "Hovered Text 3" },
-    { src: "../assests/Rectangle 518.png", alt: "Image 4", text: "Hovered Text 4" },
-    { src: "../assests/Rectangle 3.png", alt: "Image 1", text: "Hovered Text 1" },
-    { src: "../assests/Rectangle 4 (1).png", alt: "Image 2", text: "Hovered Text 2" },
-    { src: "../assests/Rectangle 5.png", alt: "Image 3", text: "Hovered Text 3" },
-    { src: "../assests/Rectangle 6 (1).png", alt: "Image 4", text: "Hovered Text 4" },
-    { src: "../assests/Rectangle 515.png", alt: "Image 1", text: "Hovered Text 1" },
-    { src: "../assests/Rectangle 516.png", alt: "Image 2", text: "Hovered Text 2" },
-    { src: "../assests/Rectangle 3.png", alt: "Image 3", text: "Hovered Text 3" },
-    { src: "../assests/Rectangle 518.png", alt: "Image 4", text: "Hovered Text 4" },
+    { src: "../assests/card1.png", alt: "Image 1", text: "Hovered Text 1" },
+              { src: "../assests/card2.png", alt: "Image 2", text: "Hovered Text 2" },
+              { src: "../assests/card3.png", alt: "Image 3", text: "Hovered Text 3" },
+              { src: "../assests/card4.png", alt: "Image 4", text: "Hovered Text 4" },
+              { src: "../assests/card5.png", alt: "Image 1", text: "Hovered Text 1" },
+              { src: "../assests/card6.png", alt: "Image 2", text: "Hovered Text 2" },
+              { src: "../assests/card1.png", alt: "Image 3", text: "Hovered Text 3" },
+              { src: "../assests/card2.png", alt: "Image 4", text: "Hovered Text 4" },
+              { src: "../assests/card3.png", alt: "Image 1", text: "Hovered Text 1" },
+              { src: "../assests/card4.png", alt: "Image 2", text: "Hovered Text 2" },
+              { src: "../assests/card5.png", alt: "Image 3", text: "Hovered Text 3" },
+              { src: "../assests/card6.png", alt: "Image 4", text: "Hovered Text 4" },
+              { src: "../assests/card1.png", alt: "Image 1", text: "Hovered Text 1" },
+              { src: "../assests/card2.png", alt: "Image 2", text: "Hovered Text 2" },
+              { src: "../assests/card3.png", alt: "Image 3", text: "Hovered Text 3" },
+              { src: "../assests/card4.png", alt: "Image 4", text: "Hovered Text 4" },
     
   ]}
 />

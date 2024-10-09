@@ -1,3 +1,186 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* bg-2 */
+.carousel-item.bg-1{
+    background: url(../assests/home1.png);
+    width: 20%;
+    
+    background-size: cover;
+}
+.carousel-item.bg-1:hover {
+    background: linear-gradient(45deg, #99000080, #99000080, #99000080, #99000080, #99000080), url(../assests/home1.png);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5ms;
+    background-size: cover;
+}
+.carousel-item.bg-1 p, .carousel-item.bg-1 h2{
+    display: none;
+}
+.carousel-item.bg-1:hover p, .carousel-item.bg-1:hover h2{
+    display: block;
+}
+
+/* bg-2 */
+.carousel-item.bg-2{
+    background: url(../assests/home2.png);
+    width: 20%;
+    background-size: cover;
+}
+.carousel-item.bg-2:hover {
+    background: linear-gradient(45deg, #99000080, #99000080, #99000080, #99000080, #99000080), url(../assests/home2.png);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5ms;
+    background-size: cover;
+}
+.carousel-item.bg-2 p, .carousel-item.bg-2 h2{
+    display: none;
+}
+.carousel-item.bg-2:hover p, .carousel-item.bg-2:hover h2{
+    display: block;
+}
+
+/* bg-3 */
+.carousel-item.bg-3{
+    background: url(../assests/home3.png);
+    width: 20%;
+    background-size: cover;
+}
+.carousel-item.bg-3:hover {
+    background: linear-gradient(45deg, #99000080, #99000080, #99000080, #99000080, #99000080), url(../assests/home3.png);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5ms;
+    background-size: cover;
+}
+.carousel-item.bg-3 p, .carousel-item.bg-3 h2{
+    display: none;
+}
+.carousel-item.bg-3:hover p, .carousel-item.bg-3:hover h2{
+    display: block;
+}
+
+/* bg-4 */
+.carousel-item.bg-4{
+    background: url(../assests/home4.png);
+    width: 20%;
+    background-size: cover;
+}
+.carousel-item.bg-4:hover {
+    background: linear-gradient(45deg, #99000080, #99000080, #99000080, #99000080, #99000080), url(../assests/home4.png);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5ms;
+    background-size: cover;
+}
+.carousel-item.bg-4 p, .carousel-item.bg-4 h2{
+    display: none;
+}
+.carousel-item.bg-4:hover p, .carousel-item.bg-4:hover h2{
+    display: block;
+}
+
+/* bg-5 */
+.carousel-item.bg-5{
+    background: url(../assests/home5.png);
+    width: 20%;
+    background-size: cover;
+    height: 830px;
+}
+.carousel-item.bg-5:hover {
+    background: linear-gradient(45deg, #99000080, #99000080, #99000080, #99000080, #99000080), url(../assests/home5.png);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5ms;
+    background-size: cover;
+}
+.carousel-item.bg-5 p, .carousel-item.bg-5 h2{
+    display: none;
+}
+.carousel-item.bg-5:hover p, .carousel-item.bg-5:hover h2{
+    display: block;
+}
+.carousel-item {
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dropin {
+  transition: all 0.3s ease-in-out;
+}
+
+.dropin:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.dropdown-content {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.dropdown:hover .dropdown-content {
+  opacity: 1;
+  visibility: visible;
+}
+
+.btun {
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.btun:hover {
+  background-color: #e63946;
+  transform: translateY(-2px);
+}
+
+.card {
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container img {
+  transition: transform 0.3s ease;
+}
+
+.image-container:hover img {
+  transform: scale(1.1);
+}
+
+.image-container:hover .hover-text {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.hover-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #fff;
+  font-size: 1.2rem;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: translateY(20px);
+}
